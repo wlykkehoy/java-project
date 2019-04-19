@@ -16,6 +16,7 @@ pipeline {
         stage("Deploy") {
             steps {
                 sh "echo Hello from Deploy!"
+                sh "ls -la"
             }
         }
         stage("Report") {
