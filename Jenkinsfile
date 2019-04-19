@@ -1,4 +1,8 @@
+// SEIS665 - Homework #10
+// Author: Wade Lykkehoy
+
 pipeline {
+    
     agent {label "linux"}
 
     stages {
