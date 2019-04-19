@@ -10,7 +10,7 @@ pipeline {
         }
         stage("Build") {
             steps {
-                sh "echo Hello from Build!"
+                sh "ant -f build.xml -v"
             }
         }
         stage("Deploy") {
